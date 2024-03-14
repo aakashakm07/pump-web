@@ -1,54 +1,49 @@
 import './footer.css';
-import { Logo } from '@app/components/Logo/Logo';
-import testIds from '@app/utils/test-ids';
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import Link from 'next/link';
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => (
   <footer
-    className="m-h-56 leading-7 sm:p-14 font-site"
-    data-testid={testIds.LAYOUT.FOOTER}
+    className=" leading-7 sm:p-1 font-site"
+  
   >
-    <div className="flex flex-col sm:flex-row">
-      <div className="basis-2/3 bg-blue-site text-white p-14 sm:pl-44">
+    <div className="flex flex-col h-72 sm:flex-row">
+    <div className="basis-1/3 bg-gray-300 text-center">
+      <a href='#'>
+      <img  src="./logo/output.png"  className="h-[100%]" alt="" />
+      </a>
+        
+      </div>
+      <div className="basis-2/3 bg-gray-300  text-gray-800 sm:pl-20 pt-12">
         <h2 className="text-2xl sm:text-3xl font-bold">CONTACT US</h2>
-        <div className="flex flex-col sm:flex-row text-sm font-helvetica">
-          <div className="basis-1/3 border-b border-white pb-4">
-            <p className="mt-10">
-              Please reach out to us with any questions or concerns. We’re happy
-              to hear from you.
-            </p>
-            <p className="mt-10">Registered Charity: 12345-67</p>
-          </div>
-          <div className="basis-1/3"></div>
-          <div className="basis-1/2 border-b border-white pb-4">
-            <p className="mt-10">
-              500 Terry Francois Street
-              <br /> San Francisco, CA 94158
-            </p>
-            <p className="mt-10">Phone: 1-800-000-0000</p>
-          </div>
+        <div className='flex'><FaLocationDot className=' my-1 mr-2' />
+          N-7/1 Newada Bhikaripur, DLW, Varanasi, India, Uttar Pradesh
         </div>
-        <h3 className="text-4xl mt-10">info@mysite.com</h3>
+        <div className='flex'><FaPhoneAlt className=' my-1 mr-2'/>+ 91 95720 72877</div>
+          <div className='flex text-lg'> Connect with us: 
+        <Link
+              href="/"
+              className=" text-gray-900 hover:text-white dark:hover:text-white ms-5"
+            > 
+              <FaFacebook className="w-8 h-8" />
+
+            </Link>
+            <Link
+              href="/"
+              className=" text-gray-900 hover:text-white dark:hover:text-white ms-5"
+            > 
+              <FaInstagram className="w-8 h-8" />
+
+            </Link>
+            </div>
+       
       </div>
-      <div className="basis-1/3 bg-gray-200 p-14 text-center">
-        <h2 className="text-2xl sm:text-3xl font-bold">BE THE FIRST TO KNOW</h2>
-        <p className="mt-6">Sign up to our newsletter to stay informed</p>
-        <input
-          type="email"
-          className="my-6 w-3/4 block mx-auto bg-transparent border-0 border-b border-blue-site text-blue-site"
-          placeholder="Email Address"
-        />
-        <a href="" className="text-purple-site py-6 font-site">
-          Subscribe Now
-        </a>
       </div>
-    </div>
-    <div className="mx-auto text-center sm:text-xs mt-6">
-      <Logo />
-      <p className="font-default mb-10">
-        © 2035 ChoosEquality. Powered and secured by Wix
-      </p>
-    </div>
-  </footer>
+      <div className='text-sm h-10 py-2 text-center bg-blue-site text-white'>Copyright © 2024 All Rights Reserved By Ganga Paryavaran Solution & Developed by- Hindsol Software</div>
+    </footer>
 );
 
 export default Footer;

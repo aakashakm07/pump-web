@@ -5,11 +5,8 @@ import type { LinkProps } from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navbarItems = [
-  { ref: '/', label: 'Home' },
+  { ref: '/#', label: 'Home' },
   { ref: '/about', label: 'About' },
-  { ref: '/projects', label: 'Projects' },
-  { ref: '/team', label: 'Team' },
-  { ref: '/news', label: 'News' },
   { ref: '/contact', label: 'Contact' },
 ];
 
@@ -24,7 +21,7 @@ const StyledNavLink = ({
 }) => (
   <NavLink
     className={`${className ?? ''} ${
-      isActive ? 'text-purple-site' : 'hover:text-purple-site'
+      isActive ? 'text-gray-800' : 'hover:text-purple-site'
     }`}
     {...linkProps}
   />
@@ -70,7 +67,7 @@ export function NavBar() {
             : 'max-md:w-0 max-md:opacity-0'
         } transition-all duration-500 ease-in-out md:block overflow-hidden max-md:absolute max-md:animate-sideways-once max-md:h-screen max-md:bg-white max-md:pt-24 z-40 top-0 right-0`}
       >
-        <ul className="flex flex-col items-center md:flex-row gap-10 md:gap-4 min-[900px]:gap-5 lg:gap-12 justify-end text-sm md:text-[15px] leading-[22px]">
+        <ul className="flex flex-col items-center md:flex-row gap-10 md:gap-4 min-[900px]:gap-5 lg:gap-12 justify-end text-sm md:text-[20px] text-gray-800 font-semibold leading-[22px]">
           {navbarItems.map(({ ref, label }) => (
             <li key={ref} className="relative">
               <StyledNavLink
