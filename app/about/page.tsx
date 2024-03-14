@@ -36,7 +36,7 @@ export default async function About() {
         <p className=" pb-20  mt-0 max-w-3xl text-sm text-center mx-auto">
           At Paryavaran Solution, our water treatment plant is more than just a
           facility; it's a beacon of sustainability and progress. Our primary
-          goal is to purify water to the highest standards, ensuring it's safe
+          goal is to purify water to the highest standards, ensuring it's 
           for consumption and environmentally responsible. Through
           state-of-the-art technology and stringent quality control measures, we
           aim to treat wastewater and industrial effluents, mitigating pollution
