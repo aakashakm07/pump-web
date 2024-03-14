@@ -35,7 +35,7 @@ export default async function About() {
         <h2 className="text-center text-4xl  sm:my-10 font-site">Our Goal</h2>
         <p className=" pb-20  mt-0 max-w-3xl text-sm text-center mx-auto">
           At Paryavaran Solution, our water treatment plant is more than  a
-          facility; it's a beacon of sustainability and progress. Our primary
+          facility; it's a beacon of sustainability and progress. Our y
           goal is to purify water to the highest standards, ensuring it's 
           for consumption and environmentally responsible. Through
           state-of-the-art technology and stringent quality control measures, we
