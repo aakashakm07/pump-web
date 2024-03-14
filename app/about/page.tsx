@@ -40,7 +40,7 @@ export default async function About() {
           for consumption and environmentally responsible. Through
           state-of-the-art technology and stringent quality control measures, we
           aim to treat wastewater and industrial effluents, mitigating pollution
-          and preserving precious water resources. Beyond mere treatment, our
+          and preserving precious water resources. Beyond mere treatment, our 
           plant serves as a model for sustainable water management practices,
           promoting circular economy principles and resource efficiency. We
           aspire to minimize our environmental footprint through innovative
