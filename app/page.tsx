@@ -1,7 +1,5 @@
-"use client"
+'use client';
 import { CarouselClient } from '@app/components/Carousel/Carousel';
-
-
 export default function Home() {
   return (
     <div className=" relative sm:px-20 rounded-lg pb-5">
@@ -65,11 +63,14 @@ export default function Home() {
       </div>
 
       {/* ====================start section======================= */}
-      <div className="text-center justify-center text-4xl text-gray-800 mb-8">Most Popular Products</div>
+      <div className="text-center justify-center text-4xl text-gray-800 mb-8">
+        Most Popular Products
+      </div>
       <div className="flex gap-4  mb-10">
-          <div className="matterPart border border-gray-100 rounded">
+        <div className="matterPart border border-gray-100 rounded">
           <div className="imagePar imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
-            <img className='w-[100%] h-full'
+            <img
+              className="w-[100%] h-full"
               alt="Bio Medical Waste Incinerator Systems"
               title="Bio Medical Waste Incinerator Systems"
               src="https://cpimg.tistatic.com/09201343/b/4/Bio-Medical-Waste-Incinerator-Systems.jpg"
@@ -85,7 +86,8 @@ export default function Home() {
         </div>
         <div className="matterPart bg-gray-100 rounded-lg">
           <div className="imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
-            <img className='w-full h-[90%]'
+            <img
+              className="w-full h-[90%]"
               alt="10 Kld Compact Sewage Treatment Plant"
               title="10 Kld Compact Sewage Treatment Plant"
               src="https://cpimg.tistatic.com/09201331/b/4/10-Kld-Compact-Sewage-Treatment-Plant.jpg"
@@ -101,7 +103,8 @@ export default function Home() {
         </div>
         <div className="matterPart border border-gray-100 rounded-lg">
           <div className="imagePart imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
-            <img className='w-[100%] h-[100%]'
+            <img
+              className="w-[100%] h-[100%]"
               alt="Industrial Sewage Treatment Plant"
               title="Industrial Sewage Treatment Plant"
               src="https://cpimg.tistatic.com/09201333/b/4/Industrial-Sewage-Treatment-Plant.jpg"
@@ -117,14 +120,17 @@ export default function Home() {
         </div>
         <div className="matterPart border border-gray-100 rounded-lg">
           <div className="imagePart imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
-            <img className='w-[100%] h-[100%]'
+            <img
+              className="w-[100%] h-[100%]"
               alt="5 Kld Effluent Treatment Plant"
               title="5 Kld Effluent Treatment Plant"
               src="https://cpimg.tistatic.com/09201336/b/4/5-Kld-Effluent-Treatment-Plant.jpg"
             />
           </div>
           <div className="contentArea">
-            <div className="proName txt2 text-center">5 Kld Effluent Treatment Plant</div>
+            <div className="proName txt2 text-center">
+              5 Kld Effluent Treatment Plant
+            </div>
             <div className="sendInquary txt2 text-center">View More</div>
             <div className="clear"></div>
           </div>
@@ -136,29 +142,31 @@ export default function Home() {
       <CarouselClient />
 
       {/* Whatsapp section */}
-      <div className='flex mt-4'>
-      <div className="whatsAppContainer">
-      <a        
-      href="https://wa.me/9572072877">
-      <img src="./images/whatsapp.png" alt="whatsapp" 
-        className="w-[80px] h-[75px] animate-bounce duration-1 mt-2 pb-1"/>
-      </a>
-    </div>
-    {/* ================= */}
+      <div className="flex mt-4">
+        <div className="whatsAppContainer">
+          <a href="https://wa.me/9572072877">
+            <img
+              src="./images/whatsapp.png"
+              alt="whatsapp"
+              className="w-[80px] h-[75px] animate-bounce duration-1 mt-2 pb-1"
+            />
+          </a>
+        </div>
+        {/* ================= */}
 
-    {/* phone section */}
+        {/* phone section */}
 
-    <div className="phonecontainer">
-      <a        
-      href="tel:95720 72877">
-      <img src="./images/phone.png" alt="phone" 
-      className="w-[60px] h-[60px] animate-bounce duration-1 md:ml-[1020px] ml-[263px] mt-1  "/>
-      </a>
-    </div>
-    </div>
-    {/* ================= */}
-      
-      
+        <div className="phonecontainer">
+          <a href="tel:95720 72877">
+            <img
+              src="./images/phone.png"
+              alt="phone"
+              className="w-[60px] h-[60px] animate-bounce duration-1 md:ml-[1020px] ml-[263px] mt-1  "
+            />
+          </a>
+        </div>
+      </div>
+      {/* ================= */}
     </div>
   );
 }

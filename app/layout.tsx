@@ -30,7 +30,7 @@ export default function RootLayout({
             <Header />
             <main className="bg-white min-h-[600px]">{children}</main>
             {/* <div className="mt-10 sm:mt-20"> */}
-              <Footer />
+            <Footer />
             {/* </div> */}
           </>
         ) : (
