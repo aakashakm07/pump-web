@@ -10,7 +10,7 @@ const Header = () => (
     >
       <div className="flex sm:px-6 h-header sm:items-center">
         <h2 className="flex-1">
-          <a href="/" className="flex items-center gap-2 sm:gap-6">
+          <a href="/" className="flex items-center  gap-2 sm:gap-6">
             <Logo />
           </a>
         </h2>

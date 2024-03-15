@@ -2,18 +2,18 @@
 export default async function About() {
   return (
     <div className="relative">
-      <div className="w-full h-[500px] overflow-hidden relative">
+      <div className="w-full md:h-[500px] h-[260px] overflow-hidden relative">
         <img
           src="./about/about.jpeg"
           alt="about"
           className="px-10 w-[1600px]"
         />
       </div>
-      <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
+      <div className="max-w-7xl mx-auto mt-[-120px]  relative bg-white px-8 sm:px-20">
         <h1 className="text-center py-8 font-site">
           About Ganga Paryavaran Solution{' '}
         </h1>
-        <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
+        <p className="md:pt-6 pt-4 max-w-3xl text-sm text-center mx-auto">
           Ganga Paryavaran Solution is a dynamic environmental initiative
           dedicated to fostering sustainable practices for a greener planet.
           Committed to addressing pressing ecological challenges, we blend
@@ -32,7 +32,7 @@ export default async function About() {
           its pristine state. Join us in safeguarding this sacred waterway.&ldquo;
         </p>
 
-        <h2 className="text-center text-4xl  sm:my-10 font-site">Our Goal</h2>
+        <h2 className="text-center text-4xl  my-10 font-site">Our Goal</h2>
         <p className=" pb-20  mt-0 max-w-3xl text-sm text-center mx-auto">
           At Paryavaran Solution, our water treatment plant is more than 
           facility; it&lsquo;s a beacon of sustainability and progress. Our 
@@ -52,7 +52,7 @@ export default async function About() {
           management endeavors. Join us in our mission to safeguard water
           resources for future generations.
         </p>
-        <div className="flex flex-col sm:flex-row gap-12  h-44 mb-10 justify-between">
+        <div className="flex flex-col sm:flex-row gap-12 md:h-44 h-auto mb-10 justify-between">
           <div className="text-center flex flex-col items-center gap-4">
             <img
               src="./about/water.png"

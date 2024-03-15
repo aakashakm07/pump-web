@@ -13,16 +13,16 @@ const Footer = () => (
           <img src="./logo/output.png" className="h-[100%]" alt="" />
         </a>
       </div>
-      <div className="basis-2/3 bg-gray-300  text-gray-800 sm:pl-20 pt-12">
-        <h2 className="text-2xl sm:text-3xl font-bold">CONTACT US</h2>
-        <div className="flex">
-          <FaLocationDot className=" my-1 mr-2" />
+      <div className="basis-2/3 bg-gray-300  text-gray-800 sm:pl-20  pt-12">
+        <h2 className="text-2xl sm:text-3xl md:mx-none mx-2 md:ml-none ml-8 font-bold">CONTACT US</h2>
+        <div className="flex ">
+          <FaLocationDot className=" my-1 mr-2 md:mx-none mx-2" />
           N-7/1 Newada Bhikaripur, DLW, Varanasi, India, Uttar Pradesh
         </div>
         <div className="flex">
-          <FaPhoneAlt className=" my-1 mr-2" />+ 91 95720 72877
+          <FaPhoneAlt className=" my-1 mr-2 md:mx-none mx-2" />+ 91 95720 72877
         </div>
-        <div className="flex text-lg">
+        <div className="flex text-lg  md:mx-none mx-2">
           {' '}
           Connect with us:
           <Link
@@ -40,7 +40,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className="text-sm h-10 py-2 text-center bg-blue-site text-white">
+    <div className="text-sm md:h-10 h-auto md:pt-2 pt-72 md:pb-2 pb-6 text-center bg-blue-site text-white">
       Copyright © 2024 All Rights Reserved By Ganga Paryavaran Solution &
       Developed by- Hindsol Software
     </div>

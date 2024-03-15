@@ -41,7 +41,7 @@ export function NavBar() {
         className="block md:hidden float-right relative z-50"
         onClick={toggleOpen}
       >
-        <div className="space-y-2 absolute top-0 right-0 bg-purple-site p-3">
+        <div className="space-y-2 absolute top-8 right-0 bg-purple-site p-3">
           {(isMenuShown
             ? [
                 'rotate-45 translate-y-[13px]',

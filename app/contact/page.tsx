@@ -10,35 +10,30 @@ export default async function Page() {
       <div className="w-full h-[500px] relative">
         <img src="./contact/contact.jpeg" alt="" className="w-[1600px] px-10" />
       </div>
-      <div className="max-w-7xl mx-auto mt-[-120px] relative bg-white px-8 sm:px-20">
+      <div className="max-w-7xl mx-auto md:mt-[-120px] mt-[-360px] relative bg-white px-8 sm:px-20">
         {/* <h1 className="text-center py-8 font-site">Contact </h1> */}
         <div className="max-w-4xl py-8 mx-auto">
-          <h3 className="font-site text-xl my-3">Contact Us</h3>
+          <h3 className="font-site text-xl  my-3">Contact Us</h3>
           <div className="border-2 rounded-xl border-blue-site p-8">
             <div className="basis-2/3 bg-gray-300 rounded-xl h-64 text-gray-800 sm:pl-20 pt-12">
-              <h2 className="text-2xl sm:text-3xl font-bold">CONTACT US</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold md:mx-auto md:ml-4 ml-8 mb-4 mx-2">CONTACT US</h2>
               <div className="flex">
-                <FaLocationDot className=" my-1 mr-2" />
+                <FaLocationDot className=" my-1 mr-2 md:mx-none mx-2" />
                 N-7/1 Newada Bhikaripur, DLW, Varanasi, India, Uttar Pradesh
               </div>
               <div className="flex">
-                <FaPhoneAlt className=" my-1 mr-2" />+ 91 95720 72877
+                <FaPhoneAlt className=" my-1 mr-2 md:mx-none mx-2" />+ 91 9572072877
               </div>
-              <div className="flex text-lg">
+              <div className="flex  md:text-lg font-semibold md:mx-none mx-2">
                 {' '}
                 Connect with us:
                 <Link
                   href="/"
-                  className=" text-gray-900 hover:text-white dark:hover:text-white ms-5"
+                  className=" text-gray-900 md:mx-none mx-2 hover:text-white dark:hover:text-white ms-5"
                 >
                   <FaFacebook className="w-8 h-8" />
                 </Link>
-                <Link
-                  href="/"
-                  className=" text-gray-900 hover:text-white dark:hover:text-white ms-5"
-                >
-                  <FaInstagram className="w-8 h-8" />
-                </Link>
+                
               </div>
             </div>
           </div>
@@ -63,7 +58,7 @@ export default async function Page() {
               <img
                 src="./images/phone.png"
                 alt="phone"
-                className="w-[60px] h-[60px] animate-bounce duration-1 md:ml-[1020px] ml-[263px] mt-1  "
+                className="w-[60px] h-[60px] animate-bounce duration-1 md:ml-[1020px] ml-[230px] mt-1  "
               />
             </a>
           </div>

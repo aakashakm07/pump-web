@@ -21,56 +21,56 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex mt-12 sm:mt-32 sm:gap-12 flex-col sm:flex-row">
+      <div className="flex mt-12 sm:mt-32 md:gap-12 gap-6 flex-col md:mx-0 mx-2 sm:flex-row">
         <div className="basis-1/3">
           <div className="h-[370px] relative">
             <img
               src="./images/pump.jpg"
               alt=""
-              className="border border-gray-400 rounded-lg w-full h-full"
+              className="border border-gray-400 rounded-lg md:w-full w-[100%] h-full"
             />
           </div>
         </div>
-        <div className="basis-2/3">
-          <div className="h-[370px] relative">
+        <div className="basis-2/3 ">
+          <div className="h-[370px] relative ">
             <img
               src="./images/watertreatment.png"
               alt=""
-              className="border border-gray-400 rounded-lg w-full h-full"
+              className="border border-gray-400 rounded-lg md:w-full w-[100%] h-full"
             />
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row sm:mt-32 mb-12 sm:gap-12">
-        <div className="basis-2/3">
+      <div className="flex flex-col sm:flex-row sm:mt-32 mb-12 md:mx-0 mx-2  md:gap-12 gap-6">
+        <div className="basis-2/3 md:mt-0 mt-8">
           <div className="h-[370px] sm:h-[470px] relative">
             <img
               src="./images/water3.jpg"
               alt=""
-              className="border border-gray-400 rounded-lg w-full h-full"
+              className="border border-gray-400 rounded-lg md:w-full w-[100%] h-full"
             />
           </div>
         </div>
         <div className="basis-1/3">
-          <div className="h-[370px] sm:h-[470px] relative">
+          <div className="h-[370px] sm:h-[470px]  relative">
             <img
               src="./images/water1.jpg"
               alt=""
-              className="border border-gray-400 rounded-lg  w-full h-full"
+              className="border border-gray-400 rounded-lg  md:w-full w-[100%] h-full"
             />
           </div>
         </div>
       </div>
 
       {/* ====================start section======================= */}
-      <div className="text-center justify-center text-4xl text-gray-800 mb-8">
+      <div className="text-center justify-center text-4xl md:mx-1 mx-14 text-gray-800 mb-8">
         Most Popular Products
       </div>
-      <div className="flex gap-4  mb-10">
-        <div className="matterPart border border-gray-100 rounded">
-          <div className="imagePar imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
+      <div className="md:flex  flex-row gap-4 md:w-auto w-[100%] mb-10">
+        <div className="matterPart border border-gray-100 md:w-[50%] w-auto rounded">
+          <div className="imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
             <img
-              className="w-[100%] h-full"
+              className="w-[100%]  h-full"
               alt="Bio Medical Waste Incinerator Systems"
               title="Bio Medical Waste Incinerator Systems"
               src="https://cpimg.tistatic.com/09201343/b/4/Bio-Medical-Waste-Incinerator-Systems.jpg"
@@ -84,8 +84,8 @@ export default function Home() {
             <div className="clear"></div>
           </div>
         </div>
-        <div className="matterPart bg-gray-100 rounded-lg">
-          <div className="imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
+        <div className="matterPart bg-gray-100 md:w-[50%] w-auto rounded-lg">
+          <div className="imagePart my-2 mx-2 bg-gray-100 md:w-auto border rounded-lg overflow-hidden border-gray-300">
             <img
               className="w-full h-[90%]"
               alt="10 Kld Compact Sewage Treatment Plant"
@@ -101,7 +101,7 @@ export default function Home() {
             <div className="clear"></div>
           </div>
         </div>
-        <div className="matterPart border border-gray-100 rounded-lg">
+        <div className="matterPart border border-gray-100 md:w-[50%] w-auto rounded-lg">
           <div className="imagePart imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
             <img
               className="w-[100%] h-[100%]"
@@ -118,7 +118,7 @@ export default function Home() {
             <div className="clear"></div>
           </div>
         </div>
-        <div className="matterPart border border-gray-100 rounded-lg">
+        <div className="matterPart border border-gray-100 md:w-[50%] w-auto rounded-lg">
           <div className="imagePart imagePart my-2 mx-2 bg-gray-100 border rounded-lg overflow-hidden border-gray-300">
             <img
               className="w-[100%] h-[100%]"
@@ -142,8 +142,8 @@ export default function Home() {
       <CarouselClient />
 
       {/* Whatsapp section */}
-      <div className="flex mt-4">
-        <div className="whatsAppContainer">
+      
+        <div className="">
           <a href="https://wa.me/9572072877">
             <img
               src="./images/whatsapp.png"
@@ -156,16 +156,16 @@ export default function Home() {
 
         {/* phone section */}
 
-        <div className="phonecontainer">
+        <div className="">
           <a href="tel:95720 72877">
             <img
               src="./images/phone.png"
               alt="phone"
-              className="w-[60px] h-[60px] animate-bounce duration-1 md:ml-[1020px] ml-[263px] mt-1  "
+              className=" w-[60px] h-[60px] animate-bounce duration-1 md:ml-[1020px] ml-[325px] mt-[-70px]  "
             />
           </a>
         </div>
-      </div>
+      
       {/* ================= */}
     </div>
   );
