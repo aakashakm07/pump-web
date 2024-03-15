@@ -27,16 +27,16 @@ export default async function About() {
           sustainable world.
         </p>
         <p className="pt-6 max-w-3xl text-sm text-center mx-auto">
-          "Ganga Paryavaran Solution: Empowering communities, fostering
+        &ldquo;Ganga Paryavaran Solution: Empowering communities, fostering
           innovation, and advocating for policy change to restore the Water to
-          its pristine state. Join us in safeguarding this sacred waterway."
+          its pristine state. Join us in safeguarding this sacred waterway.&ldquo;
         </p>
 
         <h2 className="text-center text-4xl  sm:my-10 font-site">Our Goal</h2>
         <p className=" pb-20  mt-0 max-w-3xl text-sm text-center mx-auto">
           At Paryavaran Solution, our water treatment plant is more than 
-          facility; it's a beacon of sustainability and progress. Our 
-          goal is to purify water to the highest standards, ensuring it's 
+          facility; it&lsquo;s a beacon of sustainability and progress. Our 
+          goal is to purify water to the highest standards, ensuring it&lsquo;s 
           for consumption and environmentally responsible. Through
           state-of-the-art technology and stringent quality control measures, we
           aim to treat wastewater and industrial effluents, mitigating pollution
