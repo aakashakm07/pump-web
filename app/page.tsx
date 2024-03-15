@@ -143,7 +143,7 @@ export default function Home() {
 
       {/* Whatsapp section */}
       
-        <div className="">
+        <div className="fixed left-2 bottom-[80px]  decoration-none ">
           <a href="https://wa.me/9572072877">
             <img
               src="./images/whatsapp.png"
@@ -156,7 +156,7 @@ export default function Home() {
 
         {/* phone section */}
 
-        <div className="">
+        <div className="fixed right-2 bottom-[80px]">
           <a href="tel:95720 72877">
             <img
               src="./images/phone.png"

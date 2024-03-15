@@ -14,6 +14,7 @@ const Header = () => (
             <Logo />
           </a>
         </h2>
+        
         <div>
           <NavBar />
         </div>
